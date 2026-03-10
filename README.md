@@ -67,7 +67,7 @@ G --> H[Drilling Process A]
 H --> I[Move Axis A Up]
 I --> J[Stop Spindle Motor A]
 
-J --> K[Start Spindle Motor B]
+E --> K[Start Spindle Motor B]
 K --> L[Move Axis B Down]
 
 L --> M[Drilling Process B]
@@ -75,6 +75,7 @@ L --> M[Drilling Process B]
 M --> N[Move Axis B Up]
 N --> O[Stop Spindle Motor B]
 
+J --> P[Cycle Complete]
 O --> P[Cycle Complete]
 ```
 
